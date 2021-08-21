@@ -5,7 +5,7 @@ class Box {
         'friction':1.0,
         'density':20,
          //modify the value of isStatic so that box objects can move
-        'isStatic':true
+        'isStatic':false
     }
     this.body = Bodies.rectangle(x, y, width, height, options);
     this.width = width;
